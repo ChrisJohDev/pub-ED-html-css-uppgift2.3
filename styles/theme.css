@@ -1,0 +1,7 @@
+body {
+    font-family: var(--text-font), serif;
+}
+
+p {
+    color: var(--text-faded);
+}

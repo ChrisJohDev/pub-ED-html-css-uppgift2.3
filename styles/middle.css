@@ -1,0 +1,26 @@
+#middle-top {
+    min-height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    padding-bottom: 1.5rem;
+}
+
+#middle-top h1 {
+    font-size: 2rem;
+}
+
+#middle-top p {
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+#middle-top a {
+    text-decoration: none;
+    color: var(--text-link);
+}
+
+#middle-main a {
+    text-decoration: none;
+    color: var(--text-link);
+}

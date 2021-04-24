@@ -1,0 +1,8 @@
+:root {
+    --text-color: black;
+    --text-faded: rgb(142, 145, 148);
+    --text-link: royalblue;
+    --bg-color: white;
+    --side-bg-color: #FAF6F5;
+    --text-font: 'Roboto';
+}

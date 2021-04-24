@@ -1,0 +1,181 @@
+@keyframes morphing1 {
+    0% {
+        opacity: 0%;
+    }
+
+    5% {
+        opacity: 5%;
+    }
+
+    10% {
+        opacity: 10%;
+    }
+
+    15% {
+        opacity: 15%;
+    }
+
+    20% {
+        opacity: 20%;
+    }
+
+    25% {
+        opacity: 25%;
+    }
+
+    30% {
+        opacity: 30%;
+    }
+
+    35% {
+        opacity: 35%;
+    }
+
+    40% {
+        opacity: 40%;
+    }
+
+    45% {
+        opacity: 55%;
+    }
+
+    50% {
+        opacity: 50%;
+    }
+
+    55% {
+        opacity: 55%;
+    }
+
+    60% {
+        opacity: 60%;
+    }
+
+    65% {
+        opacity: 65%;
+    }
+
+    70% {
+        opacity: 70%;
+    }
+
+    75% {
+        opacity: 75%;
+    }
+
+    80% {
+        opacity: 80%;
+    }
+
+    85% {
+        opacity: 85%;
+    }
+
+    90% {
+        opacity: 90%;
+    }
+
+    95% {
+        opacity: 95%;
+    }
+
+    100% {
+        opacity: 100%;
+    }
+}
+
+@keyframes morphing2 {
+    0% {
+        opacity: 100%;
+    }
+
+    5% {
+        opacity: 95%;
+    }
+
+    10% {
+        opacity: 90%;
+    }
+
+    15% {
+        opacity: 85%;
+    }
+
+    20% {
+        opacity: 80%;
+    }
+
+    25% {
+        opacity: 75%;
+    }
+
+    30% {
+        opacity: 70%;
+    }
+
+    35% {
+        opacity: 65%;
+    }
+
+    40% {
+        opacity: 60%;
+    }
+
+    45% {
+        opacity: 55%;
+    }
+
+    50% {
+        opacity: 50%;
+    }
+
+    55% {
+        opacity: 45%;
+    }
+
+    60% {
+        opacity: 40%;
+    }
+
+    65% {
+        opacity: 35%;
+    }
+
+    70% {
+        opacity: 30%;
+    }
+
+    75% {
+        opacity: 25%;
+    }
+
+    80% {
+        opacity: 20%;
+    }
+
+    85% {
+        opacity: 15%;
+    }
+
+    90% {
+        opacity: 10%;
+    }
+
+    95% {
+        opacity: 5%;
+    }
+
+    100% {
+        opacity: 0%;
+    }
+}
+
+#image-swapper>img:first-child {
+    animation: morphing1 3s infinite alternate;
+    animation-timing-function: ease-in-out;
+}
+
+#image-swapper>img:last-child {
+    animation: morphing2 3s infinite alternate;
+    animation-timing-function: ease-in-out;
+}
