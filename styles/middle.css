@@ -7,20 +7,100 @@
 }
 
 #middle-top h1 {
-    font-size: 2rem;
+    font-size: 2.2rem;
 }
 
 #middle-top p {
     font-weight: bold;
-    font-size: 1rem;
+    font-size: 1.1rem;
 }
 
 #middle-top a {
     text-decoration: none;
     color: var(--text-link);
+    padding-left: 0.5rem;
 }
 
 #middle-main a {
     text-decoration: none;
     color: var(--text-link);
+}
+
+.sign-up-buttons {
+    max-width: 100%;
+    height: 3rem;
+    display: grid;
+    justify-content: stretch;
+    grid-template-columns: auto 4rem 4rem;
+
+}
+
+.sign-up-buttons div {
+    border: 3px solid var(--side-bg-color);
+    border-radius: 8px;
+    background-color: var(--side-bg-color);
+    margin-left: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-up-buttons div:first-child {
+    background-color: white;
+    margin-left: 0;
+}
+
+.sign-up-buttons div:last-child {
+    /*margin-right: 0;*/
+}
+
+#middle-main i {
+    display: inline-block;
+    text-align: left;
+    vertical-align: bottom;
+}
+
+#middle-main img {
+    height: 1.5rem;
+    width: 1.5rem;
+
+}
+
+#middle-main span {
+    display: inline-block;
+    min-width: 80%;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+#middle-or {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 6rem;
+    font-size: 1.2rem;
+    color: var(--text-faded);
+    letter-spacing: 0.7px;
+}
+
+section>form label {
+    color: var(--text-faded);
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+
+section>form input {
+    width: 100%;
+    border-radius: 3px;
+    border: none;
+    box-shadow: 0px 3px var(--side-bg-color);
+    margin-bottom: 2rem;
+    display: inline-block;
+}
+
+.pawword-input i {
+    display: inline-block;
 }
