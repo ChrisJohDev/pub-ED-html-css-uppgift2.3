@@ -2,8 +2,8 @@
     min-height: 100%;
     display: flex;
     flex-direction: row;
+    justify-content: flex-start;
     align-items: flex-end;
-    padding-bottom: 1.5rem;
 }
 
 #middle-top h1 {
@@ -50,9 +50,6 @@
     margin-left: 0;
 }
 
-.sign-up-buttons div:last-child {
-    /*margin-right: 0;*/
-}
 
 #middle-main i {
     display: inline-block;
@@ -66,7 +63,7 @@
 
 }
 
-#middle-main span {
+.google-link span {
     display: inline-block;
     min-width: 80%;
     font-size: 1.2rem;
@@ -98,9 +95,72 @@ section>form input {
     border: none;
     box-shadow: 0px 3px var(--side-bg-color);
     margin-bottom: 2rem;
+}
+
+section>form input[type="checkbox"] {
+    margin: 0;
+    box-shadow: none;
+    width: auto;
+    margin-right: 1rem;
+    float: left;
+    margin-top: 0.15rem;
+}
+
+.password-input i {
     display: inline-block;
 }
 
-.pawword-input i {
+#password {
+    background-image: url("/images/eye.svg");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.strength-indicators {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+#password-strength {
+    margin-bottom: 2rem;
+}
+
+#password-strength>p {
+    font-weight: bold;
+    color: black;
+}
+
+#password-strength span {
+    width: 10vw;
+    margin-right: 2px;
+    min-height: 5px;
     display: inline-block;
+    background-color: rgb(137, 197, 137);
+}
+
+#password-strength span:last-child {
+    background-color: var(--side-bg-color);
+}
+
+form label {
+    color: var(--text-faded);
+}
+
+#policies {
+    color: var(--text-faded);
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.inline-div {
+    display: inline-block;
+}
+
+@media screen and (max-width:1276px) {
+    .sign-up-buttons {}
 }

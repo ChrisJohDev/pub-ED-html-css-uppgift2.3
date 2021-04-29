@@ -170,12 +170,12 @@
     }
 }
 
-#image-swapper>img:first-child {
+.image-wrapper>img:first-child {
     animation: morphing1 3s infinite alternate;
     animation-timing-function: ease-in-out;
 }
 
-#image-swapper>img:last-child {
+.image-wrapper>img:last-child {
     animation: morphing2 3s infinite alternate;
     animation-timing-function: ease-in-out;
 }

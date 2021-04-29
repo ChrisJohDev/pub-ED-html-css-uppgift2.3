@@ -1,0 +1,15 @@
+.submit-button-wrapper {
+    margin-top: 3rem;
+}
+
+.submit-button-wrapper button {
+    min-width: 100%;
+    background-color: var(--button-bg);
+    border: none;
+    border-radius: 5px;
+    padding: 0.8rem;
+    font-weight: normal;
+    color: whitesmoke;
+    letter-spacing: 0.8px;
+    font-family: var(--text-font), serif;
+}

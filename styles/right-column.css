@@ -1,0 +1,6 @@
+#top-right select {
+    border: none;
+    color: var(--text-faded);
+    font-size: 1rem;
+
+}
