@@ -179,3 +179,5 @@
     animation: morphing2 3s infinite alternate;
     animation-timing-function: ease-in-out;
 }
+
+@media screen and (max-width:770px) {}

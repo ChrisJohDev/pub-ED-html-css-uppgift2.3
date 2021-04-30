@@ -162,5 +162,38 @@ form label {
 }
 
 @media screen and (max-width:1276px) {
-    .sign-up-buttons {}
+    #password-strength span {
+        width: clamp(10vh, 13rem, 13rem);
+        margin-right: clamp(2px, 4px, 6px);
+    }
+}
+
+@media screen and (max-width:400px) {
+    .google-link span {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width:370px) {
+    .google-link span {
+        font-size: 0.8rem;
+    }
+}
+
+@media screen and (max-width:300px) {
+    .google-link span {
+        display: none;
+    }
+}
+
+@media screen and (max-width:345px) {
+    #middle-top h1 {
+        font-size: 1.8rem;
+    }
+}
+
+@media screen and (max-width:296px) {
+    #middle-top h1 {
+        font-size: 1.5rem;
+    }
 }
