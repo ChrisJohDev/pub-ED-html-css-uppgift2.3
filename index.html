@@ -5,18 +5,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Asgard sign up and create account page. In the form of assignment 2 in the course Frontendutvecklare, intermediate stage containing HTML, CSS and SEO by Chris Johannesson" />
+    <meta name="keywords"
+        content="html, css, animation, svg, sign up, log in, google, asgard, create account, tracks, initials, facebook, apple" />
+    <meta name="author" content="Chris Johannesson" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
     <link rel="stylesheet" type="text/css" href="styles/styles.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
         href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
         rel="stylesheet" />
-
-
-
-
-    <script src="/src/js/line-drawings.js"></script>
-    <title>Uppgift 2.3 - Grid & flex</title>
+    <title>Uppgift 2 - Grid & flex</title>
 </head>
 
 <body>
@@ -28,54 +28,54 @@
             </header>
         </div>
         <div id="image-swapper">
-            <div class="image-wrapper">
+            <figure class="image-wrapper">
                 <img id="image-1" src="/images/Diamond_CJ.svg" alt="The initials CJ in a diamond shape." />
                 <img id="image-2" src="/images/railroad-tracks.svg" alt="Railroad tracks in 3D." />
-            </div>
+            </figure>
         </div>
         <div id="middle-top" class="column">
             <section>
                 <header>
-                    <h1>Sign up to Asgard</h1>
+                    <h2>Sign up to Asgard</h2>
                     <p>Already have an account?<a href="#">Log In</a></p>
                 </header>
             </section>
         </div>
         <div id="middle-main" class="column">
-            <section>
+            <div>
                 <div class="sign-up-buttons">
                     <div class="google-link">
                         <i class="google-link-img">
-                            <img src="/images/Google/icons8-google-48.svg" alt="" />
+                            <img src="/images/Google/icons8-google-48.svg" alt="Google logog icon" />
                         </i>
                         <span>Sign up with Google</span>
                     </div>
                     <div>
                         <a href="#">
-                            <img src="/images/Facebook/Facebook-icon.png" alt="" />
+                            <img src="/images/Facebook/Facebook-icon.png" alt="Facebook logo icon" />
                         </a>
                     </div>
                     <div>
                         <a href="#">
-                            <img src="/images/Apple/icons8-apple-logo-52.svg" alt="" />
+                            <img src="/images/Apple/icons8-apple-logo-52.svg" alt="Apple logo icon" />
                         </a>
                     </div>
                 </div>
-            </section>
-            <section id="middle-or">
+            </div>
+            <div id="middle-or">
                 <div>- OR -</div>
-            </section>
-            <section>
+            </div>
+            <div>
                 <form>
                     <div>
-                        <label for="full-name">Full Name</label>
-                        <input id="full-name" type="text" name="full-name" value="Chris Johannesson" />
+                        <label for="x-full-name">Full Name</label>
+                        <input id="x-full-name" type="text" name="full-name" value="Chris Johannesson" />
                     </div>
-                    <div><label for="email">Email address</label>
-                        <input type="email" name="email" value="chris@chrisjohannesson.com" />
+                    <div><label for="x-email">Email address</label>
+                        <input id="x-email" type="email" name="email" value="chris@chrisjohannesson.com" />
                     </div>
-                    <div><label for="password">Password</label>
-                        <input id="password" type="password" name="password" value="12345678" />
+                    <div><label for="x-password">Password</label>
+                        <input id="x-password" type="password" name="password" value="12345678" />
                     </div>
 
                     <div id="password-strength">
@@ -89,17 +89,19 @@
 
                     </div>
                     <div id="policies">
-                        <input type="checkbox" />
-                        <div class="inline-div">By creating an account, you agree to accept our
+                        <label class="inline-div">
+                            <input type="checkbox" />
+                            By creating an account, you agree to accept our
                             <a href=" #">Privacy Policy</a>,<br />
                             <a href="#">Terms of Service</a> and
                             <a href="#">Notification Settings</a>
-                        </div>
+
+                        </label>
                     </div>
                     <div class="submit-button-wrapper"><button type="submit">Create Account</button></div>
 
                 </form>
-            </section>
+            </div>
         </div>
         <div id="top-right" class="column">
             <select>

@@ -6,8 +6,9 @@
     align-items: flex-end;
 }
 
-#middle-top h1 {
+#middle-top h2 {
     font-size: 2.2rem;
+    font-weight: bold;
 }
 
 #middle-top p {
@@ -82,14 +83,14 @@
     letter-spacing: 0.7px;
 }
 
-section>form label {
+div>form label {
     color: var(--text-faded);
     font-weight: bold;
     font-size: 1rem;
 }
 
 
-section>form input {
+div>form input {
     width: 100%;
     border-radius: 3px;
     border: none;
@@ -97,7 +98,7 @@ section>form input {
     margin-bottom: 2rem;
 }
 
-section>form input[type="checkbox"] {
+div>form input[type="checkbox"] {
     margin: 0;
     box-shadow: none;
     width: auto;
@@ -168,6 +169,12 @@ form label {
     }
 }
 
+@media screen and (max-width:560px) {
+    .inline-div br {
+        display: none;
+    }
+}
+
 @media screen and (max-width:400px) {
     .google-link span {
         font-size: 1rem;
@@ -187,13 +194,13 @@ form label {
 }
 
 @media screen and (max-width:345px) {
-    #middle-top h1 {
+    #middle-top h2 {
         font-size: 1.8rem;
     }
 }
 
 @media screen and (max-width:296px) {
-    #middle-top h1 {
+    #middle-top h2 {
         font-size: 1.5rem;
     }
 }
